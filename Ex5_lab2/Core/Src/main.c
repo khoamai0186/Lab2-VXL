@@ -383,6 +383,7 @@ void update7SEG ( int index ) {
 int counter1 = 100;
 int counter2 = 50;
 int counter3 = 100;
+int index_led = 0;
 void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim){
 	counter1--;
 	if ( counter1 <= 0) {
